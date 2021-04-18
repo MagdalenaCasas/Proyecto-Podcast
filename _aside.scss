@@ -1,0 +1,141 @@
+.aside{
+    height: 518px;
+    width: 100%;
+    background: linear-gradient(#0000FF,#0000A3 );
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%); 
+}
+.gradiente{
+    display: flex;
+    justify-content: center;
+    height: 518px;
+    align-items:center ;
+    flex-direction: column;
+}
+.h2-aside{
+    color:white;
+    font-size: 48px;
+    padding-bottom: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.link-button2{
+    color: black;
+    align-self: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.button2{
+    background-color: #00F3BB ;
+    width: 345px;
+    height: 56px;
+    font-size: 18px;
+    transition-duration:0.4s;
+    display: flex;
+    justify-content: center;}
+    
+.button2:hover{
+    background: linear-gradient(#0000FE,#00F0B8 );
+    color: white;}
+
+@media screen and (max-width: 501px){
+    .h2-aside{
+        color:white;
+        font-size: 36px;
+        text-align: center;
+        line-height: 42px;
+        padding-bottom: 36px;
+        width: 80%;
+        padding-left: 70px;
+        }
+     .aside{
+        height: 341px;
+        width: 100%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%); 
+        margin-top: 50px;
+        }
+    .gradiente{
+        display: flex;
+        justify-content: center;
+        height: 341px;
+        align-items:center ;
+        flex-direction: column;
+        }
+    .button2{
+        background-color: #00F3BB ;
+        width: 288px;
+        height: 48px;
+        font-size: 16px;
+        transition-duration:0.4s;
+        display: flex;
+        justify-content: center;}
+        
+}   
+@media screen and (max-width: 414px){
+.h2-aside{
+    color:white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    padding-bottom: 36px;
+    width: 80%;
+    padding-left: 70px;
+}
+.aside{
+    height: 341px;
+    width: 100%;
+    background: linear-gradient(#0000FF,#0000A3 );
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%); 
+    margin-top: 50px;
+}
+.gradiente{
+    display: flex;
+    justify-content: center;
+    height: 341px;
+    align-items:center ;
+    flex-direction: column;
+}
+.button2{
+    background-color: #00F3BB ;
+    width: 288px;
+    height: 48px;
+    font-size: 16px;
+    transition-duration:0.4s;
+    display: flex;
+    justify-content: center;}
+
+} 
+@media screen and (max-width: 320px){
+    .h2-aside{
+        color:white;
+        font-size: 36px;
+        text-align: center;
+        line-height: 42px;
+        padding-bottom: 36px;
+        width: 80%;
+        padding-left: 70px;
+    }
+    .aside{
+        height: 341px;
+        width: 100%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%); 
+        margin-top: 50px;
+    }
+    .gradiente{
+        display: flex;
+        justify-content: center;
+        height: 341px;
+        align-items:center ;
+        flex-direction: column;
+    }
+    .button2{
+        background-color: #00F3BB ;
+        width: 288px;
+        height: 48px;
+        font-size: 16px;
+        transition-duration:0.4s;
+        display: flex;
+        justify-content: center;}
+    
+    } 
+    

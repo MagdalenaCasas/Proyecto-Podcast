@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import "./header";
+@import "./titulo";
+@import "./episodios";
+@import "./nosotros";
+@import "./invitados";
+@import "./temas";
+@import "./aside";
+@import "./footer";
+
+html {
+    scroll-behavior: smooth;
+  }
+  

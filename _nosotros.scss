@@ -1,0 +1,258 @@
+.nosotros{
+    height: 555.4px;
+    width: 100%;
+    display: flex;
+}
+
+.h2_de_donde_venimos{
+    font-size: 48px;
+    padding-top: 20.4px;
+    margin-left: 300px;
+    margin-bottom: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.p-texto{
+    font-size: 16px;
+    width: 464px;
+    height: 204px;
+    margin-left: 300px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.phone{
+    position: relative;
+    margin-top: -200px;
+    padding-left: 200px;
+} 
+
+
+
+ @media screen and (max-width:1441px){
+
+    .nosotros{
+    height: 555.4px;
+    width: 100%;
+    display: flex;
+}
+    .h2_de_donde_venimos{
+    font-size: 48px;
+    padding-top: 20.4px;
+    margin-left: 100px;
+    margin-bottom: 24px;
+}
+    .p-texto{
+    font-size: 16px;
+    width: 464px;
+    height: 204px;
+    margin-left: 100px;
+}
+    
+.phone{
+    position: relative;
+    margin-top: -200px;
+    padding-left: 200px;
+}
+   
+} 
+@media screen and (max-width:1214px){
+
+    .nosotros{
+    height: 555.4px;
+    width: 100%;
+    }
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 50px;
+    margin-bottom: 24px;
+    }
+    .texto{
+    width: 464px;
+    height: 204px;
+    
+    }
+    .p-texto{
+    font-size: 16px;
+    width: 300px;
+    height: 204px;
+    margin-left: 50px;
+    }
+    .phone{
+    position: relative;
+    margin-top: -100px;
+    padding-left: 100px;
+    width: 500px;
+    height: 659px;
+    }
+       
+} 
+@media screen and (max-width:884px){
+
+    .nosotros{
+    height: 555.4px;
+    width: 100%;
+}
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    
+    }
+    .p-texto{
+    font-size: 16px;
+    width: 300px;
+    height: 204px;
+    margin-left: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+    .phone{
+    position: relative;
+    margin-top: -150px;
+    padding-left: 100px;
+}
+       
+} 
+@media screen and (max-width:801px){
+
+    .nosotros{
+        height: 555.4px;
+        width: 100%;
+    }
+    .h2_de_donde_venimos{
+        font-size: 36px;
+        padding-top: 20.4px;
+        margin-left: 5px;
+        margin-bottom: 24px;
+    }
+    .texto{
+        width: 464px;
+        height: 204px;
+        
+        }
+    .p-texto{
+        font-size: 16px;
+        width: 300px;
+        height: 204px;
+        margin-left: 5px;
+    }
+        .phone{
+        position: relative;
+        margin-top: -150px;
+        padding-left: 10px;
+        width: 50%;
+
+    }
+} 
+@media screen and (max-width:769px){
+
+    .nosotros{
+        height: 555.4px;
+        width: 100%;
+    }
+    .h2_de_donde_venimos{
+        font-size: 36px;
+        padding-top: 20.4px;
+        margin-left: 5px;
+        margin-bottom: 24px;
+    }
+    .texto{
+        width: 464px;
+        height: 204px;
+        
+        }
+    .p-texto{
+        font-size: 16px;
+        width: 300px;
+        height: 204px;
+        margin-left: 5px;
+    }
+        .phone{
+        position: relative;
+        margin-top: -150px;
+        padding-left: 10px;
+        width: 50%;
+
+    }
+} 
+@media screen and (max-width:691px){
+    .nosotros{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 100px;
+}
+    .nosotros-texto{
+    width: 100%;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-left: 100px;
+   
+    
+}
+    .p-texto{
+    font-size: 16px;
+    width: 300px;
+    height: 204px;
+    margin-left: 30px;
+}
+    .phone{
+    position: relative;
+    margin-top: -100px;
+    padding-left: 5px;
+    width: 360px;
+    height: 519px;
+}
+       
+} 
+@media screen and (max-width:501px){
+    .nosotros{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+}
+.p-texto{
+    font-size: 16px;
+    width: 80%;
+    height: 204px;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-top: 150px;
+    padding-right: 30px;
+    width: 360px;
+    height: 519px;
+}
+       
+} 
