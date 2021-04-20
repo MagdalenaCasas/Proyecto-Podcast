@@ -230,7 +230,7 @@ header {
   }
   .nav-menu {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 250px;
     width: 100%;
     background: #0000EC 100%;
     margin-left: -150%;
@@ -672,25 +672,10 @@ header {
   padding-right: 100px;
 }
 
-@media screen and (max-width: 769px) {
-  .episodios {
-    padding-top: 100px;
-    padding-bottom: 26px;
-  }
-  .cont-spot {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-left: 100px;
-    padding-right: 10px;
-  }
+@media screen and (max-width: 1001px) {
   .spot1 {
-    width: 80%;
-    height: 100%;
+    width: 300px;
+    height: 536px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -698,16 +683,54 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .spot2 {
-    width: 80%;
-    height: 100%;
+    width: 300px;
+    height: 536px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .spotify-link {
-    padding-bottom: 11px;
+}
+
+@media screen and (max-width: 769px) {
+  .spot1 {
+    width: 250px;
+    height: 536px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .spot2 {
+    width: 250px;
+    height: 536px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -727,7 +750,7 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-left: 10px;
+    padding-left: 50px;
   }
   .spot1 {
     width: 95%;
@@ -758,6 +781,94 @@ header {
   }
   .episodios {
     padding-top: 84px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .section-episodios {
+    width: 100%;
+    height: 1203.5px;
+  }
+  .cont-spot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 80px;
+  }
+  .spot1 {
+    width: 95%;
+    height: 100%;
+  }
+  .spot2 {
+    width: 95%;
+    height: 100%;
+  }
+  .spotify-link {
+    width: 100%;
+    height: 295px;
+  }
+  .link-episodios {
+    /* titulo */
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-left: 16px;
+    text-decoration: none;
+  }
+  .gradient {
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+    background: linear-gradient(#0000FF, #0000A3);
+    -webkit-clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+            clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+    height: 1500.6px;
+  }
+  .episodios {
+    padding-top: 84px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .section-episodios {
+    width: 100%;
+    height: 1203.5px;
+  }
+  .cont-spot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 16px;
+  }
+  .spot1 {
+    width: 298px;
+    height: 100%;
+  }
+  .spot2 {
+    width: 298px;
+    height: 100%;
+  }
+  .spotify-link {
+    width: 298px;
+    height: 300px;
+  }
+  .link-episodios {
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-left: 5px;
+    text-decoration: none;
   }
 }
 
@@ -1403,7 +1514,7 @@ header {
     -ms-flex-line-pack: center;
         align-content: center;
     padding-top: 30px;
-    margin-right: 300px;
+    margin-right: 500px;
   }
   .img-temas {
     width: 104px;
