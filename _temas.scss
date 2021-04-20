@@ -1,3 +1,7 @@
+.temas{
+    width: 100vw;
+
+}
 .cont-itemas{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -167,6 +171,7 @@
 
 }
 @media screen and (max-width: 415px){
+    
     .cont-itemas{
         display: grid;
         grid-template-columns: 10% 80% 10%;

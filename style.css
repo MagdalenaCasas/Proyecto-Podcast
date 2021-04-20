@@ -103,6 +103,14 @@ header {
   text-decoration: line-through;
 }
 
+.link-menu:active {
+  font-size: 16px;
+  color: #060A24 56%;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: line-through;
+}
+
 .imagen-logo {
   padding-left: 150px;
   padding-top: 50px;
@@ -360,6 +368,7 @@ header {
   text-align: justify;
   padding-top: 50px;
   font-family: 'IBM Plex Sans', sans-serif;
+  width: 100%;
 }
 
 .h1 {
@@ -707,6 +716,10 @@ header {
 .section-episodios {
   width: 100%;
   height: 1042.6px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background: linear-gradient(#0000FF, #0000A3);
+  -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+          clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .episodios {
@@ -720,15 +733,7 @@ header {
   font-size: 48px;
   padding-left: 200px;
   text-decoration: none;
-}
-
-.gradient {
-  width: 110%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-  background: linear-gradient(#0000FF, #0000A3);
-  -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-          clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-  height: 1042.6px;
+  margin: auto;
 }
 
 .cont-spot {
@@ -772,14 +777,6 @@ header {
     padding-left: 200px;
     text-decoration: none;
   }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-    height: 1042.6px;
-  }
   .cont-spot {
     width: 100%;
     display: -webkit-box;
@@ -815,14 +812,6 @@ header {
     padding-left: 200px;
     text-decoration: none;
   }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-    height: 1042.6px;
-  }
   .cont-spot {
     width: 100%;
     display: -webkit-box;
@@ -845,14 +834,6 @@ header {
 @media screen and (max-width: 1015px) {
   .section-episodios {
     width: 100%;
-    height: 1500.6px;
-  }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
     height: 1500.6px;
   }
   .cont-spot {
@@ -898,14 +879,6 @@ header {
     width: 100%;
     height: 1500.6px;
   }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-    height: 1500.6px;
-  }
   .link-episodios {
     color: #FFFFFF;
     font-size: 48px;
@@ -913,7 +886,7 @@ header {
     text-decoration: none;
   }
   .cont-spot {
-    width: 110%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -953,14 +926,6 @@ header {
     width: 100%;
     height: 1500.6px;
   }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-    height: 1500.6px;
-  }
   .link-episodios {
     color: #FFFFFF;
     font-size: 48px;
@@ -968,7 +933,7 @@ header {
     text-decoration: none;
   }
   .cont-spot {
-    width: 110%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1005,14 +970,6 @@ header {
 @media screen and (max-width: 395px) {
   .section-episodios {
     width: 100%;
-    height: 1200.6px;
-  }
-  .gradient {
-    width: 110%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-    background: linear-gradient(#0000FF, #0000A3);
-    -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
     height: 1200.6px;
   }
   .link-episodios {
@@ -1616,6 +1573,10 @@ header {
     padding-bottom: 14px;
     line-height: 42px;
   }
+}
+
+.temas {
+  width: 100vw;
 }
 
 .cont-itemas {
@@ -2339,14 +2300,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 100px;
-  padding-left: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .img-footer {
@@ -2358,7 +2319,7 @@ header {
 @media screen and (max-width: 320px) {
   .footer {
     width: 100%;
-    height: 121px;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -39,14 +39,14 @@ header{
 }
 #btn-menu:checked ~.lbl-menu #spn1{
     transform:rotate(148deg);
-    top:10px
+    top:10px;
 }
 #btn-menu:checked ~.lbl-menu #spn2{
     opacity: 0;
 }
 #btn-menu:checked ~.lbl-menu #spn3{
     transform:rotate(-148deg);
-    top:10px
+    top:10px;
 }
 //css nav desktop
 .cont-li{
@@ -66,6 +66,13 @@ header{
   line-height: 28px; 
   text-decoration: line-through;
 }
+.link-menu:active{
+    font-size: 16px;
+    color: #060A24 56%;
+    letter-spacing: 0;
+    line-height: 28px; 
+    text-decoration: line-through;
+  }
 .imagen-logo{
     padding-left: 150px;
     padding-top: 50px;
