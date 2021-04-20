@@ -15,169 +15,272 @@
     padding-left: 200px;
     text-decoration: none;}
 .gradient{
-    width: 100%;
+    width: 110%;
     background: linear-gradient(#0000FF,#0000A3 );
     clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
     height: 1042.6px; }
-.spot1{
-    width: 584px;
-    height: 536px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
- }
-.spot2{
-    width: 584px;
-    height: 536px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 .cont-spot{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
-@media screen and (max-width: 1001px){
-    .spot1{
-        width: 300px;
-        height: 536px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-     }
-    .spot2{
-        width: 300px;
-        height: 536px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+.cont-spot div{
+    width: 48%;
+    margin: auto;
+    margin:5px;
     
 }
-@media screen and (max-width: 769px){
-    .spot1{
-        width: 250px;
-        height: 536px;
+.spotify-link{
+    width: 584px;
+    height: 232px;
+    margin: 15px
+
+}
+@media screen and (max-width: 1345px){
+    .section-episodios{
+        width: 100%;
+        height: 1042.6px;
+    }
+    
+    .episodios{
+        padding-top: 186px ;
+        padding-bottom: 26px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .link-episodios{
+        color:#FFFFFF;
+        font-size: 48px;
+        padding-left: 200px;
+        text-decoration: none;}
+    .gradient{
+        width: 110%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+        height: 1042.6px; }
+    
+    .cont-spot{
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-     }
-    .spot2{
-        width: 250px;
-        height: 536px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .spotify-link{
+        width: 530px;
+        height: 232px;
+        margin: 15px
     }
   
 }
- @media screen and (max-width: 501px){
+@media screen and (max-width: 1230px){
     .section-episodios{
         width: 100%;
-        height: 1203.5px; }
-
+        height: 1042.6px;
+    }
+    
+    .episodios{
+        padding-top: 186px ;
+        padding-bottom: 26px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .link-episodios{
+        color:#FFFFFF;
+        font-size: 48px;
+        padding-left: 200px;
+        text-decoration: none;}
+    .gradient{
+        width: 110%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+        height: 1042.6px; }
+    
     .cont-spot{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+     
+    }
+    .spotify-link{
+        width: 470px;
+        height: 232px;
+        margin: 15px
+    
+    }
+  
+}
+ @media screen and (max-width: 1015px){
+    .section-episodios{
+        width: 100%;
+        height: 1500.6px;
+
+    }
+    .gradient{
+        width: 110%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+        height: 1500.6px; }
+    .cont-spot{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 50px;
+        margin: auto;
+        align-items: center;
+        
     }
-    .spot1{
-        width:95%;
-        height: 100%;
+    .cont-spot div{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        
     }
-    .spot2{
-        width:95%;
-        height: 100%;
+    .spotify-link{
+        width: 80%;
+        margin: auto;
+        height: 232px;
+        margin: 15px;
+        justify-content: center;
+    
     }
-   .spotify-link{
-      width: 100%;
-      height: 295px;
-    }
-    .link-episodios{ /* titulo */
-        color:#FFFFFF;
-        font-size: 36px;
-        padding-left: 16px;
-        text-decoration: none;}
-    .gradient{
+   
+ }
+ @media screen and (max-width: 501px){
+    .section-episodios{
         width: 100%;
+        height: 1500.6px;
+
+    }
+    .gradient{
+        width: 110%;
         background: linear-gradient(#0000FF,#0000A3 );
-        clip-path: polygon(0% 05%, 100% 0%, 100% 95%, 0% 100%);
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
         height: 1500.6px; }
-    .episodios{
-        padding-top: 84px ;
-        }
+
+    .link-episodios{
+        color:#FFFFFF;
+        font-size: 48px;
+        padding-left: 50px;
+        text-decoration: none;
+    }
+    .cont-spot{
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .cont-spot div{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .spotify-link{
+        width: 80%;
+        margin: auto;
+        height: 232px;
+        margin: 15px;
+        padding-left: 20px;
+        justify-content: center;
+    
+    }
+
  }
  @media screen and (max-width: 415px){
     .section-episodios{
         width: 100%;
-        height: 1203.5px; }
+        height: 1500.6px;
 
-    .cont-spot{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 80px;
     }
-    .spot1{
-        width:95%;
-        height: 100%;
-    }
-    .spot2{
-        width:95%;
-        height: 100%;
-    }
-   .spotify-link{
-      width: 100%;
-      height: 295px;
-    }
-    .link-episodios{ /* titulo */
-        color:#FFFFFF;
-        font-size: 36px;
-        padding-left: 16px;
-        text-decoration: none;}
     .gradient{
-        width: 100%;
+        width: 110%;
         background: linear-gradient(#0000FF,#0000A3 );
-        clip-path: polygon(0% 05%, 100% 0%, 100% 95%, 0% 100%);
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
         height: 1500.6px; }
-    .episodios{
-        padding-top: 84px ;
-        }
 
- }
- @media screen and (max-width: 376px){
-    .section-episodios{
-        width: 100%;
-        height: 1203.5px; }
-
-    .cont-spot{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 16px;
-    }
-    .spot1{
-        width:298px;
-        height: 100%;
-    }
-    .spot2{
-        width: 298px;
-        height: 100%;
-    }
-   .spotify-link{
-      width:298px;
-      height: 300px;
-    }
     .link-episodios{
         color:#FFFFFF;
-        font-size: 36px;
-        padding-left: 5px;
-        text-decoration: none;}
- 
+        font-size: 48px;
+        padding-left: 50px;
+        text-decoration: none;
+    }
+    .cont-spot{
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .cont-spot div{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .spotify-link{
+        width: 80%;
+        margin: auto;
+        height: 232px;
+        margin: 15px 15px 15px -10px;
+        justify-content: center;
+    
+    }
 
  }
+ @media screen and (max-width: 395px){
+    .section-episodios{
+        width: 100%;
+        height: 1200.6px;
+
+    }
+    .gradient{
+        width: 110%;
+        background: linear-gradient(#0000FF,#0000A3 );
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+        height: 1200.6px; }
+
+    .link-episodios{
+        color:#FFFFFF;
+        font-size: 48px;
+        padding-left: 50px;
+        text-decoration: none;
+    }
+    .cont-spot{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .cont-spot div{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .spotify-link{
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        margin: 15px;
+        padding-left: 5px;
+        justify-content: center;
+    
+    }
+
+ }
+
 
 

@@ -90,6 +90,51 @@
         align-self: center;
     }
 }
+@media screen and (max-width:850px){
+    .h1{
+        font-size: 64px;
+    }
+    .world{
+        text-decoration: line-through;
+    }
+    .dot{
+        color: #0000EC;
+    }
+     .cont-texto{
+        padding-left: 100px;
+        text-align: justify;
+    
+    } 
+    .cont-titulo{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt{
+        width: 70%;
+        text-align: justify;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+       
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        background-color: #00F3BB ;
+        width:226px;
+        height: 56px;
+        font-size: 18px;
+        margin-top: 56px;
+        transition-duration:0.4s;}
+    .button:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: white;
+    }
+    .link-button{
+        color: black;
+        align-self: center;
+    }
+}
 @media screen and (max-width:801px){
     .h1{
         font-size: 64px;

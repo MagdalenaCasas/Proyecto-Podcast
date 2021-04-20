@@ -182,7 +182,7 @@
 } 
 @media screen and (max-width:691px){
     .nosotros{
-    height: 700px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -249,8 +249,156 @@
 }
 .phone{
     position: relative;
-    margin-top: 150px;
+    margin-top: -150px;
     padding-right: 30px;
+    width: 360px;
+    height: 519px;
+}
+       
+}
+@media screen and (max-width:490px){
+    .nosotros{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+}
+.p-texto{
+    font-size: 16px;
+    width: 80%;
+    height: 204px;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-top: -150px;
+    padding-right: 50px;
+    width: 360px;
+    height: 519px;
+}
+       
+} 
+@media screen and (max-width:460px){
+    .nosotros{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+}
+.p-texto{
+    font-size: 16px;
+    width: 80%;
+    height: 204px;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-top: -150px;
+    padding-right: 50px;
+    width: 360px;
+    height: 519px;
+}
+       
+} 
+@media screen and (max-width:415px){
+    .nosotros{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+}
+.p-texto{
+    font-size: 16px;
+    width: 80%;
+    height: 204px;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-top: -150px;
+    padding-right: 50px;
+    width: 360px;
+    height: 519px;
+}
+       
+} 
+@media screen and (max-width:395px){
+    .nosotros{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .h2_de_donde_venimos{
+    font-size: 36px;
+    padding-top: 20.4px;
+    margin-left: 30px;
+}
+    .texto{
+    width: 464px;
+    height: 204px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    
+}
+.p-texto{
+    font-size: 16px;
+    width: 80%;
+    height: 204px;
+    margin-left: 30px;
+}
+.phone{
+    position: relative;
+    margin-top: -150px;
+    padding-right: 50px;
     width: 360px;
     height: 519px;
 }
