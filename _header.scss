@@ -4,6 +4,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .boton-menu{
     width: 100%;
@@ -57,7 +58,7 @@ header{
 .link-menu{
     text-decoration: none;
     color:rgba(6,10,36,1);
-     padding: 26px 48px;
+    padding: 26px 48px;
 }
 .link-menu:hover{
   font-size: 16px;
@@ -196,7 +197,7 @@ header{
     }
     .lbl-menu{
         display: block;
-        margin: 20px 20px 50px 0px;
+        margin: 20px -5px 50px 0px;
     }
     .lbl-menu #spn1,#spn2,#spn3{
         position: absolute;
@@ -209,7 +210,7 @@ header{
     }
     .nav-menu{
         position: absolute;
-        margin-top: 250px;
+        margin-top: 200px;
         width: 100%;
         background: #0000EC 100%;
         margin-left: -150%;
@@ -224,10 +225,11 @@ header{
         display: flex;
         flex-direction: column;
         padding-right: 10px;
+        margin-top: -20px;
     }
     .link-menu{
         color: white;
-        padding: 10px 20px 20px 10px;
+        margin-top: -30px;
         text-align: start;
     }
 
@@ -236,7 +238,6 @@ header{
     .li-menu{
         margin-bottom: 20px;
     }
-
 
 }
 

@@ -273,7 +273,7 @@ header {
   }
   .lbl-menu {
     display: block;
-    margin: 20px 20px 50px 0px;
+    margin: 20px -5px 50px 0px;
   }
   .lbl-menu #spn1, #spn2, #spn3 {
     position: absolute;
@@ -287,7 +287,7 @@ header {
   }
   .nav-menu {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 100%;
     background: #0000EC 100%;
     margin-left: -150%;
@@ -307,10 +307,11 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-right: 10px;
+    margin-top: -20px;
   }
   .link-menu {
     color: white;
-    padding: 10px 20px 20px 10px;
+    margin-top: -30px;
     text-align: start;
   }
   #btn-menu:checked ~ .nav-menu {
@@ -372,7 +373,6 @@ header {
 .cont-texto {
   padding-left: 200px;
   text-align: justify;
-  padding-top: 50px;
   font-family: 'IBM Plex Sans', sans-serif;
   width: 100%;
 }
@@ -399,6 +399,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
 }
 
 .txt {
@@ -673,7 +674,7 @@ header {
   .cont-texto {
     padding-left: 20px;
     text-align: justify;
-    margin-top: 5px;
+    margin-top: -50px;
   }
   .cont-titulo {
     display: -webkit-box;

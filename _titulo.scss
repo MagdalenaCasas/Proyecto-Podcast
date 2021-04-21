@@ -1,7 +1,6 @@
 .cont-texto{
     padding-left: 200px;
     text-align: justify;
-    padding-top: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
     width: 100%;
 }
@@ -22,6 +21,7 @@
 }
 .cont-titulo{
     display: flex;
+    margin-top: 50px;
 }
 .txt{
     width: 628px;
@@ -239,8 +239,7 @@
      .cont-texto{
         padding-left: 20px;
         text-align: justify;
-        margin-top: 5px;
-    
+        margin-top: -50px;
     } 
     .cont-titulo{
         display: flex;
