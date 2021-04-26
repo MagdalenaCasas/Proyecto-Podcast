@@ -4,7 +4,7 @@
 }
 .cont-itemas{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
 
 }
@@ -41,8 +41,8 @@
 @media screen and (max-width: 801px){
     .cont-itemas{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr) ;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:  1fr 1fr ;
         padding-left: 100px;
     }
     .h2_temas{
@@ -56,8 +56,8 @@
 @media screen and (max-width: 769px){
     .cont-itemas{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr) ;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:  1fr 1fr ;
         padding-left: 100px;
     }
     .h2_temas{
@@ -77,8 +77,8 @@
     
     .cont-itemas{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr) ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr ;
         padding-left: 100px;
     }
     .h2_temas{
@@ -98,8 +98,8 @@
     
     .cont-itemas{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr) ;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:  1fr 1fr ;
         padding-left: 100px;
     }
     .h2_temas{
@@ -119,7 +119,7 @@
     .cont-itemas{
         display: grid;
         grid-template-columns: 20% 40% 20%;
-        grid-template-rows:repeat(4,1fr) ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
     
     }
     .nav-temas{
@@ -175,7 +175,7 @@
     .cont-itemas{
         display: grid;
         grid-template-columns: 10% 80% 10%;
-        grid-template-rows:repeat(4,1fr) ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     
     }
     .nav-temas{
@@ -228,7 +228,7 @@
     .cont-itemas{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:repeat(4,1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .nav-temas{
         width: 80%;
@@ -280,7 +280,7 @@
     .cont-itemas{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:repeat(4,1fr) ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .nav-temas{
         width: 80%;
